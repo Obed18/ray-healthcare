@@ -61,12 +61,12 @@ const Hero: React.FC = () => {
 
           <div className="hero-buttons">
             <Link to="/contact" className="link-text">
-              <button className="primary-btn">
+              <button className="hero-primary-btn">
                 Contact Us <ArrowRight size={16} />
               </button>
             </Link>
             <Link to="/get-involved" className="link-text">
-              <button className="secondary-btn">Get Involved</button>
+              <button className="hero-secondary-btn">Get Involved</button>
             </Link>
           </div>
         </motion.div>

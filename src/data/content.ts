@@ -1,27 +1,21 @@
 export const teamMembers = [
   {
-    name: "Procurement Oficer",
+    name: "Dr. Danso Yaw Poakwa (OD)",
     role: "Procurement Oficer",
     bio: "Software Engineer and Tech Lead passionate about building scalable solutions and driving innovation across Africa’s tech ecosystem.",
     image: 0,
   },
   {
-    name: "Dr. Samuel Ofori Amoako",
-    role: "Public Relations Officer",
-    bio: "Driving impactful partnerships, shaping collaborations, and ensuring strong governance across all external relationships.",
-    image: 1,
-  },
-  {
-    name: "Dr.(OD) Afriyie Bonsu Yaa Agyapomaa",
-    role: "Social Media and Digital Marketing Officer",
-    bio: "Creative digital strategist and design lead focused on crafting impactful user experiences and visually compelling digital solutions.",
-    image: 2,
-  },
-  {
-    name: "Dr. Janet Adjei (OD)",
-    role: "Deputy Outreach & Community Education Head",
+    name: "Dr. Prosper Yirsob Andey",
+    role: "Chief Executive Officer (CEO)",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
-    image: 3,
+    image: 11,
+  },
+  {
+    name: "Dr Maame Serwaa Achampong-Kyei (OD)",
+    role: "Chief Operating Officer (COO)",
+    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
+    image: 6,
   },
   {
     name: "Dr. Afenyo Farida Selase (OD)",
@@ -36,16 +30,52 @@ export const teamMembers = [
     image: 5,
   },
   {
-    name: "Dr Maame Serwaa Achampong-Kyei (OD)",
-    role: "Chief Operating Officer (COO)",
-    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
-    image: 6,
-  },
-  {
     name: "Dr. Joana Dedokwor Asare (OD)",
     role: "Human Resources Manager",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
     image: 7,
+  },
+  {
+    name: "Dr. Janet Adjei (OD)",
+    role: "Deputy Outreach & Community Education Head",
+    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
+    image: 3,
+  },
+  {
+    name: "Dr. Reginald Gyamfi Acquah",
+    role: "Director of Research Department",
+    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
+    image: 10,
+  },
+  {
+    name: "Dr. Samuel Ofori Amoako",
+    role: "Public Relations Officer",
+    bio: "Driving impactful partnerships, shaping collaborations, and ensuring strong governance across all external relationships.",
+    image: 1,
+  },
+  {
+    name: "Afia Twewaa Asamoa",
+    role: "Head of Media",
+    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
+    image: 13,
+  },
+  {
+    name: "Dr. Anyimadze Samuel Turkson (OD)",
+    role: "Deputy Media Head",
+    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
+    image: 14,
+  },
+  {
+    name: "Dr Josephine Asare Yeboah (OD)",
+    role: "Social Media & Digital Marketing Officer, PRO",
+    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
+    image: 12,
+  },
+  {
+    name: "Dr. Afriyie Bonsu Yaa Agyapomaa (OD)",
+    role: "Social Media and Digital Marketing Officer",
+    bio: "Creative digital strategist and design lead focused on crafting impactful user experiences and visually compelling digital solutions.",
+    image: 2,
   },
   {
     name: "Dr Kenneth Osei Tutu Boateng",
@@ -59,41 +89,37 @@ export const teamMembers = [
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
     image: 9,
   },
+];
+export const kumasiMembers = [
   {
-    name: "Dr. Reginald Gyamfi Acquah",
-    role: "Director of Research Department",
+    name: "Stephanie Nana Achiaa Owusu",
+    role: "President",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
-    image: 10,
+    image: 22
   },
   {
-    name: "Dr. Prosper Yirsob Andey",
-    role: "Chief Executive Officer (CEO)",
+    name: "Boatey Pomaah Edna",
+    role: "Vice President",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
-    image: 11,
+    image: 21
   },
   {
-    name: "Dr Josephine Asare Yeboah (OD)",
-    role: "Social Media & Digital Marketing Officer, PRO",
+    name: "Ayerkie Christabel Nuertey",
+    role: "General secretary",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
-    image: 12,
+    image: 20
   },
   {
-    name: "Afia Twewaa Asamoa",
-    role: "Head of Media (Main Branch)",
+    name: "Fonore Wisdom Adongo ",
+    role: "Organizer",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
-    image: 13,
+    image: 19,
   },
   {
-    name: "Dr. Anyimadze Samuel Turkson (OD)",
-    role: "Deputy Media Head (Main Branch)",
+    name: "Aduah Wepasuah Anita ",
+    role: "Research Head",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
-    image: 14,
-  },
-  {
-    name: "Eugene Nana Sefah",
-    role: "Media Head (Kumasi)",
-    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
-    image: 15,
+    image: 18,
   },
   {
     name: "Ahenkan Loretta Yeboah",
@@ -108,35 +134,11 @@ export const teamMembers = [
     image: 17, 
   },
   {
-    name: "Aduah Wepasuah Anita ",
-    role: "Research Head",
+    name: "Eugene Nana Sefah",
+    role: "Media Head",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
-    image: 18,
+    image: 15,
   },
-  {
-    name: "Fonore Wisdom Adongo ",
-    role: "Organizer",
-    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
-    image: 19,
-  },
-  {
-    name: "Ayerkie Christabel Nuertey",
-    role: "General secretary",
-    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
-    image: 20
-  },
-  {
-    name: "Boatey Pomaah Edna",
-    role: "Vice President",
-    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
-    image: 21
-  },
-  {
-    name: "Stephanie Nana Achiaa Owusu",
-    role: "President",
-    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
-    image: 22
-  }
 ];
 
 export const blogPosts = [

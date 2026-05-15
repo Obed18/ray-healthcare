@@ -134,6 +134,15 @@ const Navbar: React.FC = () => {
                 exit={{ x: "100%" }}
                 transition={{ duration: 0.3 }}
               >
+                <button
+                  type="button"
+                  className="mobile-close-btn"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  aria-label="Close menu"
+                >
+                  <X size={24} />
+                </button>
+
                 {navLinks}
 
                 <div className="mobile-actions">
