@@ -24,7 +24,7 @@ const events = [
   },
   {
     id: 3,
-    city: "Accra",
+    city: "University of Ghana sports stadium",
     title: "⁠Black Sheep Foundation Ubuntu inter orphanage games",
     date: "10th January, 2026",
     image:
@@ -32,7 +32,7 @@ const events = [
   },
   {
     id: 4,
-    city: "Accra",
+    city: "Darkuman",
     title: "All Heart Foundation orphanage donations & screening",
     date: "December 28th, 2025",
     image:
@@ -40,7 +40,7 @@ const events = [
   },
   {
     id: 5,
-    city: "Accra",
+    city: "Koforidua",
     title: "St Joana Foundation Feed the street screening",
     date: "20th December, 2025",
     image:
@@ -48,7 +48,7 @@ const events = [
   },
   {
     id: 6,
-    city: "Accra",
+    city: "Asutsuare",
     title: "⁠LEMP foundation community health screening ",
     date: "November 29th, 2025",
     image:
@@ -56,7 +56,7 @@ const events = [
   },
   {
     id: 7,
-    city: "⁠Brong Ahafo",
+    city: "Sunyani",
     title: "⁠Brong Ahafo Gnat screening",
     date: "July 23rd - 25th, 2025",
     image:
@@ -69,6 +69,14 @@ const events = [
     date: "May 5th - 7th, 2025",
     image:
       "/events/event8.jpeg",
+  },
+  {
+    id: 8,
+    city: "Kumasi",
+    title: "R.A.Y. Healthcare Africa, KNUST-Chapter school Screening",
+    date: "March 25th , 2026",
+    image:
+      "/events/event9.jpeg",
   },
 ];
 

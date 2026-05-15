@@ -5,6 +5,7 @@ import VolunteerImpact from "../components/VolunteerImpact";
 import CoreValues from "../components/CoreValues";
 import AboutSection from "../components/AboutSection";
 import AboutInfo from "../components/AboutInfo";
+import FounderSection from "../components/FounderSection";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <AboutSection />
       <AboutInfo />
       <CoreValues />
+      <FounderSection />
       <TeamMembers />
       <VolunteerImpact />
       <JoinMissionCard />

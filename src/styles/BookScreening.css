@@ -126,6 +126,9 @@ textarea {
   .book-container {
     flex-direction: column;
   }
+  .book-right {
+    width: 100%;
+  }
 }
 
 @media (max-width: 640px) {

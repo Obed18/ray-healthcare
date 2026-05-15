@@ -206,6 +206,10 @@
   .programs-grid {
     grid-template-columns: 1fr;
   }
+    .partners-programs-grid {
+    grid-template-columns: 1fr;
+  }
+
 
   .program-card {
     padding: 1.6rem;

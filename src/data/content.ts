@@ -1,11 +1,5 @@
 export const teamMembers = [
   {
-    name: "Dr. Danso Yaw Poakwa (OD)",
-    role: "Procurement Oficer",
-    bio: "Software Engineer and Tech Lead passionate about building scalable solutions and driving innovation across Africa’s tech ecosystem.",
-    image: 0,
-  },
-  {
     name: "Dr. Prosper Yirsob Andey (OD)",
     role: "Chief Executive Officer (CEO)",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
@@ -22,6 +16,12 @@ export const teamMembers = [
     role: "Administrative Assistant/Secretary",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
     image: 4,
+  },
+  {
+    name: "Dr. Danso Yaw Poakwa (OD)",
+    role: "Procurement Oficer",
+    bio: "Software Engineer and Tech Lead passionate about building scalable solutions and driving innovation across Africa’s tech ecosystem.",
+    image: 0,
   },
   {
     name: "Dr Agyei-Poku Akua Agyeiwaa (OD)",
@@ -114,6 +114,12 @@ export const kumasiMembers = [
     role: "General secretary",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
     image: 20
+  },
+  {
+    name: "Mary Sintim",
+    role: "Financial Controller",
+    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
+    image: 24,
   },
   {
     name: "Fonore Wisdom Adongo ",

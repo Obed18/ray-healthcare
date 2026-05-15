@@ -157,3 +157,11 @@
 .fade-in {
   transform: translateY(20px);
 }
+@media (max-width: 768px) {
+.team-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+}
+
+

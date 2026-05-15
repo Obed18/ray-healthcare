@@ -5,7 +5,7 @@ import BookScreening from "../components/BookScreening";
 
 const Home = () => {
   return (
-<div className="home">
+<div className="services-div">
     <ServicesSection />
     <HowWeWork />
     <BookScreening />
