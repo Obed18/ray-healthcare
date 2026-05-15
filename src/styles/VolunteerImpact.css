@@ -1,0 +1,152 @@
+/* VolunteerImpact.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+.volunteer-impact {
+  width: 100%;
+  padding: 6rem 1.5rem;
+  background: linear-gradient(
+    135deg,
+    #f8fffb 0%,
+    #eefbf3 100%
+  );
+  overflow: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+.volunteer-impact__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.volunteer-impact__content {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.volunteer-impact__tag {
+  display: inline-block;
+  padding: 0.55rem 1.2rem;
+  border-radius: 999px;
+  background: rgba(0, 170, 90, 0.1);
+  color: #00a65a;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.volunteer-impact__title {
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+.volunteer-impact__description {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #6b7280;
+}
+
+.volunteer-impact__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.impact-card {
+  position: relative;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  border-radius: 28px;
+  padding: 2.5rem 2rem;
+  text-align: center;
+  border: 1px solid rgba(0, 170, 90, 0.08);
+  box-shadow:
+    0 10px 35px rgba(0, 0, 0, 0.06),
+    0 4px 10px rgba(0, 0, 0, 0.03);
+  transition: all 0.35s ease;
+  overflow: hidden;
+}
+
+.impact-card::before {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  background: rgba(0, 170, 90, 0.08);
+  border-radius: 50%;
+  top: -70px;
+  right: -70px;
+}
+
+.impact-card__icon {
+  width: 75px;
+  height: 75px;
+  margin: 0 auto 1.5rem;
+  border-radius: 20px;
+  background: linear-gradient(
+    135deg,
+    #00c76f,
+    #00a65a
+  );
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 25px rgba(0, 167, 90, 0.25);
+  position: relative;
+  z-index: 2;
+}
+
+.impact-card__value {
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.7rem;
+  position: relative;
+  z-index: 2;
+}
+
+.impact-card__label {
+  font-size: 1rem;
+  color: #6b7280;
+  line-height: 1.6;
+  position: relative;
+  z-index: 2;
+}
+
+.impact-card:hover {
+  box-shadow:
+    0 20px 45px rgba(0, 0, 0, 0.08),
+    0 8px 20px rgba(0, 0, 0, 0.04);
+}
+
+/* Tablet */
+@media (max-width: 992px) {
+  .volunteer-impact__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .volunteer-impact {
+    padding: 5rem 1.2rem;
+  }
+
+  .volunteer-impact__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .impact-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .impact-card__value {
+    font-size: 2.3rem;
+  }
+}

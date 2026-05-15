@@ -1,0 +1,142 @@
+.sdg-measurement {
+  padding: 80px 20px;
+  background: #e6f2eb;
+  font-family: "Poppins", sans-serif;
+}
+
+.measurement-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Header */
+.measurement-sdg-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.measurement-sdg-header h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.measurement-sdg-header p {
+  color: #6b7280;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Layout */
+.measurement-sdg-content {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+
+.measurement-sdg-left,
+.measurement-sdg-right {
+  flex: 1;
+}
+
+/* Left Points */
+.measurement-sdg-point {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.measurement-sdg-icon {
+    background: #e6f4ea;
+    color: #16a34a;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.measurement-sdg-point h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.measurement-sdg-point p {
+  margin: 5px 0 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* Right Main Card */
+.measurement-sdg-main-card {
+  background: #16a34a;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 25px;
+}
+
+.measurement-sdg-card-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.measurement-sdg-tag {
+  background: #ebf5ee;
+  color: #16a34a;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.measurement-sdg-count {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.measurement-sdg-main-card h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  color: white;
+}
+
+.measurement-sdg-main-card p {
+  color: #d3d3d3;
+  font-size: 14px;
+}
+
+/* Stats */
+.measurement-sdg-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.measurement-sdg-stat-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+}
+
+.measurement-sdg-stat-card h4 {
+  margin: 0;
+  font-size: 22px;
+  color: #16a34a;
+}
+
+.measurement-sdg-stat-card p {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #6b7280;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .measurement-sdg-content {
+    flex-direction: column;
+  }
+}

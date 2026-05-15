@@ -1,0 +1,32 @@
+.about-highlight {
+  background: #50b64d;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.about-highlight h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.about-highlight p {
+  max-width: 600px;
+  margin: auto;
+  color: #e0e7ff;
+}
+.contact-us-btn {
+  margin-top: 25px;
+  border: 2px solid #ffffff;
+  color: white;
+  padding: 12px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background: transparent;
+}
+.contact-us-btn:hover {
+  background-color: #1490d9;
+  color: white;
+}

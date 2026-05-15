@@ -1,0 +1,256 @@
+/* LatestEvents.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+.events-div{
+    padding-top: 6rem;
+}
+.latest-events-section {
+  width: 100%;
+  background: #e5f1e4;
+  padding: 7rem 1.5rem;
+  overflow: hidden;
+  position: relative;
+  font-family: "Inter", sans-serif;
+}
+
+.latest-events-container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Badge */
+
+.events-badge {
+  width: fit-content;
+  padding: 0.9rem 1.7rem;
+  border-radius: 999px;
+  background: #50b64d;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  margin-bottom: 2rem;
+}
+
+/* Heading */
+
+.events-heading {
+  color: #333;
+  font-size: clamp(2rem, 2vw, 2rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  max-width: 1100px;
+  margin-bottom: 4.5rem;
+}
+
+/* Grid */
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+/* Card */
+
+.event-card {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+
+/* Image */
+
+.event-image-wrapper {
+  width: 100%;
+  height: 400px;
+  border-radius: 2rem;
+  overflow: hidden;
+  position: relative;
+  background: #111;
+}
+
+.event-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: 0.6s ease;
+}
+
+.event-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.08)
+  );
+}
+
+/* Content */
+
+.event-content {
+  padding-top: 2rem;
+}
+
+/* Pill */
+
+.event-location-pill {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1.5px solid #50b64d;
+  border-radius: 999px;
+  padding: 0.75rem 1.4rem;
+  color: #50b64d;
+  margin-bottom: 1.6rem;
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  backdrop-filter: blur(10px);
+}
+
+.event-content h3 {
+  color: rgb(0, 0, 0);
+  font-size: clamp(1rem, 1.5vw, 2rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+.event-date {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: rgba(36, 36, 36, 0.7);
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+/* Decorative Blur */
+
+.latest-events-section::before {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  filter: blur(120px);
+  top: -120px;
+  left: -100px;
+  z-index: 0;
+}
+
+.latest-events-section::after {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: rgba(255, 255, 255, 0.03);
+  filter: blur(120px);
+  bottom: -100px;
+  right: -100px;
+  z-index: 0;
+}
+
+.latest-events-container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Hover Glow */
+
+.event-card::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: 2rem;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.18),
+    rgba(255, 255, 255, 0)
+  );
+  opacity: 0;
+  transition: 0.4s ease;
+  pointer-events: none;
+}
+
+.event-card:hover::after {
+  opacity: 1;
+}
+
+/* Tablet */
+
+@media (max-width: 992px) {
+  .events-grid {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .event-image-wrapper {
+    height: 400px;
+  }
+
+  .events-heading {
+    margin-bottom: 3.5rem;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .latest-events-section {
+    padding: 5rem 1.2rem;
+  }
+
+  .events-heading {
+    font-size: 2.6rem;
+    line-height: 1.05;
+  }
+
+  .event-image-wrapper {
+    height: 320px;
+    border-radius: 1.6rem;
+  }
+
+  .event-content h3 {
+    font-size: 1.7rem;
+  }
+
+  .event-location-pill {
+    padding: 0.7rem 1.1rem;
+  }
+}
+
+/* Small Phones */
+
+@media (max-width: 480px) {
+  .events-heading {
+    font-size: 2.1rem;
+  }
+
+  .event-image-wrapper {
+    height: 260px;
+  }
+
+  .event-content h3 {
+    font-size: 1.45rem;
+  }
+
+  .event-date {
+    font-size: 0.82rem;
+  }
+}

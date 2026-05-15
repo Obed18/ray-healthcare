@@ -1,0 +1,152 @@
+/* General Section Styling */
+.team-section {
+  padding: 5rem 1rem;
+  background-color: #ffffff;
+  color: #111827;
+  font-family: "Poppins", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  .team-section {
+    background-color: #111827;
+    color: #f9fafb;
+  }
+}
+
+/* Container */
+.team-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* Header */
+.team-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+
+.team-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.team-subtitle {
+  font-size: 1.125rem;
+  color: #4b5563;
+}
+
+@media (prefers-color-scheme: dark) {
+  .team-subtitle {
+    color: #d1d5db;
+  }
+}
+
+/* Grid Layout */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+/* Member Card */
+.team-member {
+  opacity: 0;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.team-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.team-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover .team-image {
+  transform: scale(1.1);
+}
+
+/* Overlay for Social Links */
+.team-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+  opacity: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 1.5rem;
+  gap: 1rem;
+  transition: opacity 0.3s ease;
+}
+
+.team-member:hover .team-overlay {
+  opacity: 1;
+}
+
+.social-icon {
+  background-color: #ffffff;
+  color: #111827;
+  border-radius: 50%;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+  background-color: #14b8a6;
+  color: #ffffff;
+}
+
+/* Text */
+.member-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.member-role {
+  color: #50b64d;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .member-role {
+    color: #50b64d;
+  }
+}
+
+.member-bio {
+  font-size: 0.9rem;
+  color: #4b5563;
+}
+
+@media (prefers-color-scheme: dark) {
+  .member-bio {
+    color: #d1d5db;
+  }
+}
+
+/* Animations */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fade-in {
+  transform: translateY(20px);
+}

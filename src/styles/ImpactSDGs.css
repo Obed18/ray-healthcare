@@ -1,0 +1,120 @@
+.impact-sdg-section {
+  text-align: center;
+}
+
+.sdg-top-section{
+  background-color: #b3f2dd;
+  padding: 80px 5%;
+}
+.impact-sdg-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ecfdf5;
+  color: #059669;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  border: 2px solid #10b981;
+}
+
+.impact-dot {
+  width: 8px;
+  height: 8px;
+  background: #10b981;
+  border-radius: 50%;
+}
+
+.impact-sdg-description {
+  max-width: 700px;
+  margin: 10px auto 40px;
+  color: #555;
+}
+
+/* Stats */
+.impact-sdg-stats {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.impact-sdg-stats h3 {
+  font-size: 28px;
+}
+
+/* Grid */
+.impact-sdg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+  padding: 80px 5%;
+}
+
+/* Card */
+.impact-sdg-card {
+  border: 2px solid;
+  border-radius: 16px;
+  padding: 20px;
+  text-align: left;
+}
+
+/* Top */
+.impact-sdg-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.impact-sdg-number {
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.impact-sdg-category {
+    padding: 5px 10px;
+    border-radius: 28px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+/* Description */
+.impact-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.impact-desc.expanded {
+  -webkit-line-clamp: unset;
+}
+
+.impact-toggle {
+  color: #50b64d;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/* Stats */
+.impact-card-stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+/* Bottom */
+.impact-box {
+  padding: 15px;
+  border-radius: 12px;
+  color: #fff;
+}
+.sdg-div{
+  padding-top: 6rem;
+}

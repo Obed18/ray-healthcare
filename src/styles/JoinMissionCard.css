@@ -1,0 +1,174 @@
+/* JoinMissionCard.css */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+.join-mission-section {
+  width: 100%;
+  padding: 4rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background: transparent;
+}
+
+.join-mission-card {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  overflow: hidden;
+  border-radius: 32px;
+  padding: 3rem;
+  background: linear-gradient(
+    135deg,
+    rgba(7, 22, 38, 0.98),
+    rgba(10, 35, 58, 0.96)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow:
+    0 20px 60px rgba(0, 0, 0, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  backdrop-filter: blur(20px);
+}
+
+.mission-icon-wrapper {
+  min-width: 90px;
+  width: 90px;
+  height: 90px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow:
+    0 12px 30px rgba(34, 197, 94, 0.35),
+    inset 0 1px 4px rgba(255, 255, 255, 0.2);
+  z-index: 2;
+}
+
+.mission-content {
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+
+.mission-content h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+
+.mission-content p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: rgba(255, 255, 255, 0.78);
+  max-width: 650px;
+  margin-bottom: 2rem;
+}
+
+.mission-btn {
+  border: none;
+  outline: none;
+  padding: 1rem 1.6rem;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: white;
+  font-size: 0.96rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 25px rgba(34, 197, 94, 0.3);
+}
+
+.mission-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 35px rgba(34, 197, 94, 0.4);
+}
+
+.glow {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(90px);
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.glow-1 {
+  width: 220px;
+  height: 220px;
+  background: #22c55e;
+  top: -50px;
+  right: -40px;
+}
+
+.glow-2 {
+  width: 180px;
+  height: 180px;
+  background: #0ea5e9;
+  bottom: -70px;
+  left: -40px;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+  .join-mission-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    border-radius: 26px;
+  }
+
+  .mission-icon-wrapper {
+    width: 75px;
+    height: 75px;
+    min-width: 75px;
+    border-radius: 20px;
+  }
+
+  .mission-content h2 {
+    font-size: 2rem;
+  }
+
+  .mission-content p {
+    font-size: 0.96rem;
+  }
+
+  .mission-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .join-mission-section {
+    padding: 2rem 1rem;
+  }
+
+  .join-mission-card {
+    padding: 1.6rem;
+    gap: 1.5rem;
+  }
+
+  .mission-content h2 {
+    font-size: 1.7rem;
+  }
+
+  .mission-content p {
+    font-size: 0.92rem;
+    line-height: 1.7;
+  }
+}

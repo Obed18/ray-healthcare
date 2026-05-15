@@ -1,0 +1,79 @@
+/* CoreValues.css */
+.core-div {
+  background-color: #e2f9e1;
+}
+.core-values-section {
+  padding: 4rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #e2f9e1;
+}
+
+.core-values-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.core-values-subtitle {
+  color: #475569;
+  font-size: 1.125rem;
+  margin-bottom: 3rem;
+  max-width: 700px;
+  margin-inline: auto;
+}
+
+.core-values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+  padding: 4rem;
+}
+
+.core-value-card {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.core-icon-wrapper {
+  background-color: #50b64d;
+  color: white;
+  border-radius: 1rem;
+  width: 64px;
+  height: 64px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.core-value-card h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: #0f172a;
+}
+
+.core-value-card p {
+  font-size: 1rem;
+  color: #64748b;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .core-values-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1rem 0;
+    padding: 1rem;
+  }
+}
