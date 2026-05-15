@@ -6,7 +6,7 @@ export const teamMembers = [
     image: 0,
   },
   {
-    name: "Dr. Prosper Yirsob Andey",
+    name: "Dr. Prosper Yirsob Andey (OD)",
     role: "Chief Executive Officer (CEO)",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
     image: 11,
@@ -36,25 +36,31 @@ export const teamMembers = [
     image: 7,
   },
   {
+    name: "Dr. Charlotte Adjei (OD)",
+    role: "Outreach And Community Education Head",
+    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
+    image: 23,
+  },
+  {
     name: "Dr. Janet Adjei (OD)",
     role: "Deputy Outreach & Community Education Head",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
     image: 3,
   },
   {
-    name: "Dr. Reginald Gyamfi Acquah",
+    name: "Dr. Reginald Gyamfi Acquah (OD)",
     role: "Director of Research Department",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
     image: 10,
   },
   {
-    name: "Dr. Samuel Ofori Amoako",
+    name: "Dr. Samuel Ofori Amoako (OD)",
     role: "Public Relations Officer",
     bio: "Driving impactful partnerships, shaping collaborations, and ensuring strong governance across all external relationships.",
     image: 1,
   },
   {
-    name: "Afia Twewaa Asamoa",
+    name: "Afia Twewaa Asamoa (OD)",
     role: "Head of Media",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
     image: 13,
@@ -67,7 +73,7 @@ export const teamMembers = [
   },
   {
     name: "Dr Josephine Asare Yeboah (OD)",
-    role: "Social Media & Digital Marketing Officer, PRO",
+    role: "Social Media & Digital Marketing Officer",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
     image: 12,
   },
@@ -78,7 +84,7 @@ export const teamMembers = [
     image: 2,
   },
   {
-    name: "Dr Kenneth Osei Tutu Boateng",
+    name: "Dr Kenneth Osei Tutu Boateng (OD)",
     role: "Photography, Videography and Content creation Head",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
     image: 8,

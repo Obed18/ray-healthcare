@@ -32,6 +32,7 @@ export const images = {
     "/profiles/Christabel.jpeg",
     "/profiles/Boatey.jpeg",
     "/profiles/Achiaa.jpeg",
+    "/profiles/Charlotte.jpeg",
   ],
 
   services: {
