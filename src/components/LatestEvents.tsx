@@ -3,11 +3,12 @@
 import { motion } from "framer-motion";
 import type { Variants } from "framer-motion";
 import { CalendarDays, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 import "../styles/LatestEvents.css";
 
 const events = [
   {
-    id: 1,
+    id: "ray-healthcare-gnat-eye-screening-2026",
     city: "Brong Ahafo",
     title: "Brong Ahafo Gnat screening",
     date: "1st May, 2026",
@@ -15,7 +16,7 @@ const events = [
       "/events/event1.jpeg",
   },
   {
-    id: 2,
+    id: "ray-healthcare-world-glaucoma-awareness-week",
     city: "Online",
     title: "World Glaucoma Week",
     date: "March 4, 2026",
@@ -23,15 +24,15 @@ const events = [
       "/events/event2.jpeg",
   },
   {
-    id: 3,
-    city: "University of Ghana sports stadium",
+    id: "ray-healthcare-ubuntu-inter-orphanage-games-2026",
+    city: "University Of Ghana Stadium",
     title: "⁠Black Sheep Foundation Ubuntu inter orphanage games",
     date: "10th January, 2026",
     image:
       "/events/event3.jpeg",
   },
   {
-    id: 4,
+    id: "ray-healthcare-all-hearts-foundation-outreach",
     city: "Darkuman",
     title: "All Heart Foundation orphanage donations & screening",
     date: "December 28th, 2025",
@@ -39,7 +40,7 @@ const events = [
       "/events/event4.jpeg",
   },
   {
-    id: 5,
+    id: "ray-healthcare-feed-the-streets-koforidua",
     city: "Koforidua",
     title: "St Joana Foundation Feed the street screening",
     date: "20th December, 2025",
@@ -47,7 +48,7 @@ const events = [
       "/events/event5.jpeg",
   },
   {
-    id: 6,
+    id: "ray-healthcare-lemps-foundation-shai-osudoku-outreach",
     city: "Asutsuare",
     title: "⁠LEMP foundation community health screening ",
     date: "November 29th, 2025",
@@ -55,7 +56,7 @@ const events = [
       "/events/event6.jpeg",
   },
   {
-    id: 7,
+    id: "ray-healthcare-gnat-annual-meeting",
     city: "Sunyani",
     title: "⁠Brong Ahafo Gnat screening",
     date: "July 23rd - 25th, 2025",
@@ -63,7 +64,7 @@ const events = [
       "/events/event7.jpeg",
   },
   {
-    id: 8,
+    id: "ray-healthcare-eastern-region-super-zonals",
     city: "Eastern Region",
     title: "Eastern Region Super Zonal Sports competition screening",
     date: "May 5th - 7th, 2025",
@@ -71,7 +72,7 @@ const events = [
       "/events/event8.jpeg",
   },
   {
-    id: 8,
+    id: 9,
     city: "Kumasi",
     title: "R.A.Y. Healthcare Africa, KNUST-Chapter school Screening",
     date: "March 25th , 2026",
@@ -125,8 +126,8 @@ const LatestEvents = () => {
         {/* Cards */}
         <div className="events-grid">
           {events.map((event, index) => (
+          <Link key={event.id} to={`/blog/${event.id}`} className="blog-read-more-small">
             <motion.div
-              key={event.id}
               className="event-card"
               variants={cardVariants}
               initial="hidden"
@@ -166,6 +167,7 @@ const LatestEvents = () => {
                 </div>
               </div>
             </motion.div>
+            </Link>
           ))}
         </div>
       </div>

@@ -1,0 +1,91 @@
+.quotes-section {
+  padding: 80px 20px;
+  background: #f9fbfd;
+  font-family: "Poppins", sans-serif;
+}
+
+.quotes-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.quotes-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #1a2b49;
+}
+
+.quotes-subtext {
+  color: #6b7280;
+  font-size: 1rem;
+  margin-bottom: 50px;
+}
+
+/* GRID */
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+.quote-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 16px;
+  text-align: left;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.quote-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* TYPOGRAPHY */
+.quote-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 5px;
+}
+
+.quote-subtitle {
+  font-size: 0.85rem;
+  color: #50b64d;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.quote-content {
+  font-size: 0.95rem;
+  color: #4b5563;
+  line-height: 1.6;
+  white-space: pre-line;
+}
+
+/* RESPONSIVENESS */
+@media (max-width: 1024px) {
+  .quotes-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .quotes-heading {
+    font-size: 2rem;
+  }
+
+  .quotes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .quote-card {
+    padding: 20px;
+  }
+}

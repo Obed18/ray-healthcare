@@ -15,6 +15,7 @@ import Footer from "./components/Footer";
 import Gallery from "./pages/Gallery";
 import Article from "./pages/Article";
 import GetInvolved from "./pages/GetInvolved";
+import ScrollToTop from "./components/ScrollToTop";
 import "./styles/global.css";
 
 const AppLayout: React.FC = () => {
@@ -24,6 +25,7 @@ const AppLayout: React.FC = () => {
   return (
     <>
       {!isSplashRoute && <Navbar />}
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<SplashScreen />} />
         <Route path="/home" element={<Home />} />

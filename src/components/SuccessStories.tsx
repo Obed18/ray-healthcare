@@ -104,7 +104,7 @@ const SuccessStories: React.FC = () => {
               {/* IMAGE */}
               <div className="story-image">
                 <img src={story.image} alt={story.title} />
-                <span className="badge">
+                <span className="success-badge">
                   {Icon && <Icon size={16} />}
                   {story.programType}
                 </span>

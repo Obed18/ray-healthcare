@@ -54,14 +54,14 @@ export const images = {
   },
 
   blog: [
-    "/images/Webinar.jpeg",
-    "https://d64gsuwffb70l.cloudfront.net/68ef9b8a3c6c06c01749face_1760533561225_1fc81b4d.webp",
-    "https://d64gsuwffb70l.cloudfront.net/68ef9b8a3c6c06c01749face_1760533569019_c5c0cbdf.webp",
-    "/images/Hero2.jpeg",
-    "/images/Hydroponics.jpg",
-    "https://d64gsuwffb70l.cloudfront.net/68ef9b8a3c6c06c01749face_1760533567877_b944f762.webp",
-    "/images/Robotics.jpeg",
-    "/images/Soil.webp",
-    "/images/Smart.webp",
+    "/events/event8.jpeg",
+    "/events/event7.jpeg",
+    "/events/event6.jpeg",
+    "/events/event5.jpeg",
+    "/events/event4.jpeg",
+    "/events/event3.jpeg",
+    "/events/event2.jpeg",
+    "/events/event1.jpeg",
+    // "/events/event.jpeg",
   ],
 };

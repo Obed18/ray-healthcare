@@ -3,13 +3,18 @@ import "../styles/Footer.css";
 import { motion } from "framer-motion";
 import { Eye, ArrowRight, ArrowUp, Mail, Phone, MapPin } from "lucide-react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter, FaWhatsapp } from "react-icons/fa6";
 
-// Properly typed icon components
-const FacebookIcon = (FaFacebookF as unknown) as React.FC<{ size?: number }>;
-const InstagramIcon = (FaInstagram as unknown) as React.FC<{ size?: number }>;
-const TwitterIcon = (FaXTwitter as unknown) as React.FC<{ size?: number }>;
-const LinkedinIcon = (FaLinkedinIn as unknown) as React.FC<{ size?: number }>;
+type IconProps = {
+  size?: number;
+  className?: string;
+};
+
+const FacebookIcon: React.FC<IconProps> = (props) => React.createElement(FaFacebookF as any, props);
+const InstagramIcon: React.FC<IconProps> = (props) => React.createElement(FaInstagram as any, props);
+const TwitterIcon: React.FC<IconProps> = (props) => React.createElement(FaXTwitter as any, props);
+const LinkedinIcon: React.FC<IconProps> = (props) => React.createElement(FaLinkedinIn as any, props);
+const WhatsappIcon: React.FC<IconProps> = (props) => React.createElement(FaWhatsapp as any, props);
 
 const Footer: React.FC = () => {
   return (
@@ -112,7 +117,7 @@ const Footer: React.FC = () => {
           >
             <h4>Contact Info</h4>
             <ul>
-              <li><Phone size={16} className="icon" /> +233548064492</li>
+              <li><WhatsappIcon size={16} className="icon" /> +233548064492</li>
               <li><Mail size={16} className="icon" />rayhealthcareafrica@gmail.com</li>
               <li><MapPin size={16} className="icon" /> Accra, Ghana</li>
             </ul>

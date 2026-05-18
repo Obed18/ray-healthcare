@@ -59,23 +59,20 @@ const FounderSection: React.FC = () => {
           </div>
 
           <p className="founder-description">
-            As a visionary student optometrist and emerging eye care leader at
-            KNUST, I'm pioneering accessible eye care solutions across Ghana
-            through strategic community impact initiatives. Having successfully
-            orchestrated mass eye screenings for over 40,000 students and
-            spearheaded multiple national and regional outreach programs, I
-            established RAY Healthcare to systematically eliminate barriers to
-            quality eye care nationwide.
+            As an emerging leader in community eye health and preventive healthcare, I am dedicated to advancing accessible, sustainable, and impact-driven eye care solutions across Ghana through strategic outreach, public health education, and healthcare partnerships. As the founder of R.A.Y. Healthcare Africa, I have successfully led and coordinated large-scale vision screening and eye health education initiatives that have reached diverse populations across schools, underserved communities, professional associations, orphanages, and national events.
           </p>
 
           <p className="founder-description">
-            My expertise spans from conducting cutting-edge low vision research
-            to delivering specialized care for children with special needs,
-            while my leadership in Christian youth programs demonstrates my
-            commitment to integrating faith-driven service with professional
-            excellence. I don't just advocate for change—I architect it,
-            transforming how Ghana approaches community eye health through
-            innovative partnerships and scalable healthcare solutions.
+            My experience includes directing eye screening and awareness campaigns during the Eastern Region Super Zonals Sports Competition, where over 40,000 students were reached, as well as leading consecutive annual vision screening initiatives for more than 1,000 educators during the Ghana National Association of Teachers (GNAT) meetings in the Brong Ahafo Region. I have also spearheaded community outreach programs in rural farming communities within the Shai Osudoku District through partnerships with organizations such as LEMPs Foundation, delivering eye care services and health education to underserved populations.
+          </p>
+          <p className="founder-description">
+            In addition, I have collaborated with foundations including St Joana Foundation, All Hearts Foundation and Black Sheep Foundation to integrate vision care into humanitarian outreach initiatives, orphanage support programs, and youth-centered community events across Ghana.
+          </p>
+          <p className="founder-description">
+            My professional interests extend beyond outreach into low vision research, preventive ophthalmic care, and specialized support for children and vulnerable populations. I am particularly passionate about strengthening healthcare accessibility through scalable community-based models, strategic partnerships, and public health advocacy.
+          </p>
+          <p className="founder-description">
+            Alongside my healthcare work, my leadership involvement in youth and faith-based initiatives reflects a strong commitment to service, integrity, and transformational leadership. I remain focused on driving innovative approaches to community eye health while contributing meaningfully to the broader conversation on equitable healthcare delivery in Ghana and across Africa.
           </p>
 
           <div className="founder-tags">

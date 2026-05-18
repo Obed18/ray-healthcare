@@ -154,94 +154,94 @@ export const kumasiMembers = [
 ];
 
 export const blogPosts = [
-  // {
-  //   id: "web-development-webinar-2026",
-  //   title: "Web Development Webinar 2026: Empowering 500 Ghanaian Students",
-  //   tag: "Web Development",
-  //   author: "ClueCode",
-  //   date: "2026-10-02",
-  //   excerpt:
-  //     "Our recent webinar on web development attracted over 500 students from across Ghana, providing hands-on training and insights into the latest technologies shaping the future of coding in Africa.",
-  //   image: 0,
-  //   time: "3 min read",
-  // },
-  // {
-  //   id: "ai-is-transforming-agriculture-in-africa",
-  //   title: "How AI Is Transforming Agriculture in Africa",
-  //   tag: "AI",
-  //   author: "Obed Otu Ayor",
-  //   date: "2025-10-10",
-  //   excerpt:
-  //     "Exploring the intersection of artificial intelligence and sustainable farming practices across the continent.",
-  //   image: 1,
-  //   time: "5 min read",
-  // },
-  // {
-  //   id: "smart-farming-drones",
-  //   title: "Smart Farming Drones: Our Journey in Innovation",
-  //   tag: "Smart Farming",
-  //   author: "ClueCode",
-  //   date: "2025-10-05",
-  //   excerpt:
-  //     "From concept to deployment - how we developed precision agriculture solutions for small-scale farmers.",
-  //   image: 2,
-  //   time: "4 min read",
-  // },
-  // {
-  //   id: "building-next-generation-african-tech-leaders",
-  //   title: "Building the Next Generation of African Tech Leaders",
-  //   tag: "CSR",
-  //   author: "ClueCode",
-  //   date: "2025-09-28",
-  //   excerpt:
-  //     "Stories from our coding bootcamps and the young innovators shaping Africa's digital future.",
-  //   image: 3,
-  //   time: "6 min read",
-  // },
-  // {
-  //   id: "hydroponics-revolution",
-  //   title: "Hydroponics Revolution: Growing More with Less",
-  //   tag: "Smart Farming",
-  //   author: "ClueCode",
-  //   date: "2025-09-20",
-  //   excerpt:
-  //     "How vertical farming and hydroponic systems are addressing food security challenges.",
-  //   image: 4,
-  //   time: "5 min read",
-  // },
-  // {
-  //   id: "ai-for-business",
-  //   title: "AI for Business: Automation Success Stories",
-  //   tag: "AI",
-  //   author: "ClueCode",
-  //   date: "2025-09-15",
-  //   excerpt:
-  //     "Case studies of Ghanaian businesses that transformed their operations with our AI solutions.",
-  //   image: 5,
-  //   time: "5 min read",
-  // },
-  // {
-  //   id: "youth-robotics-competition",
-  //   title: "Youth Robotics Competition Highlights",
-  //   tag: "Events",
-  //   author: "ClueCode",
-  //   date: "2025-09-10",
-  //   excerpt:
-  //     "Celebrating creativity and innovation at our annual robotics championship.",
-  //   image: 6,
-  //   time: "4 min read",
-  // },
-  // {
-  //   id: "soil-monitoring-tech",
-  //   title: "Soil Monitoring Tech: Data-Driven Farming",
-  //   tag: "Smart Farming",
-  //   author: "ClueCode",
-  //   date: "2025-09-01",
-  //   excerpt:
-  //     "IoT sensors and real-time analytics helping farmers make informed decisions.",
-  //   image: 7,
-  //   time: "5 min read",
-  // },
+  {
+    id: "ray-healthcare-eastern-region-super-zonals",
+    title: "R.A.Y. Healthcare Africa Brings Vision Care to the Eastern Region Super Zonals Sports Competition",
+    tag: "Healthcare & Community Outreach",
+    author: "R.A.Y. Healthcare Africa",
+    date: "May 7, 2025",
+    excerpt:
+      "From 5th–7th May 2025, R.A.Y. Healthcare Africa participated in the Eastern Region Super Zonals Sports Competition, providing vision screening and eye health education to thousands of students.",
+    image: 0,
+    time: "6 min read",
+  },
+  {
+    id: "ray-healthcare-gnat-annual-meeting",
+    title: "R.A.Y. Healthcare Africa Supports Educators with Vision Screening at GNAT Annual Meeting",
+    tag: "Healthcare & Education",
+    author: "R.A.Y. Healthcare Africa",
+    date: "July 24, 2025",
+    excerpt:
+      "On 23rd–24th July 2025, R.A.Y. Healthcare Africa joined the GNAT Annual Meeting in the Brong Ahafo Region, offering vision screening and eye health education to educators.",
+    image: 1,
+    time: "6 min read",
+  },
+  {
+    id: "ray-healthcare-lemps-foundation-shai-osudoku-outreach",
+    title: "R.A.Y. Healthcare Africa Partners with LEMPs Foundation to Deliver Vision Care in Shai Osudoku Communities",
+    tag: "Community Healthcare Outreach",
+    author: "R.A.Y. Healthcare Africa",
+    date: "November 29, 2025",
+    excerpt:
+      "On 29th November 2025, R.A.Y. Healthcare Africa partnered with LEMPs Foundation to deliver vision screening and eye health education in farming communities within the Shai Osudoku District.",
+    image: 2,
+    time: "6 min read",
+  },
+  {
+    id: "ray-healthcare-feed-the-streets-koforidua",
+    title: "R.A.Y. Healthcare Africa Partners with St Joana Foundation for “Feed the Streets” Outreach in Koforidua",
+    tag: "Community Outreach & Healthcare",
+    author: "R.A.Y. Healthcare Africa",
+    date: "December 20, 2025",
+    excerpt:
+      "On 20th December 2025, R.A.Y. Healthcare Africa partnered with St. Joana Foundation for the Feed the Streets campaign in Koforidua, supporting donation and health screening activities.",
+    image: 3,
+    time: "6 min read",
+  },
+  {
+    id: "ray-healthcare-all-hearts-foundation-outreach",
+    title: "R.A.Y. Healthcare Africa Partners with All Hearts Foundation to Support Children at Chosen Children Center",
+    tag: "Healthcare & Community Outreach",
+    author: "R.A.Y. Healthcare Africa",
+    date: "December 28, 2025",
+    excerpt:
+      "On 28th December 2025, R.A.Y. Healthcare Africa partnered with All Hearts Foundation during a donation outreach at Chosen Children Center in Accra.",
+    image: 4,
+    time: "6 min read",
+  },
+  {
+    id: "ray-healthcare-ubuntu-inter-orphanage-games-2026",
+    title: "Vision Beyond the Game: R.A.Y. Healthcare Africa at the Ubuntu Inter Orphanage Games",
+    tag: "Healthcare & Community Outreach",
+    author: "R.A.Y. Healthcare Africa",
+    date: "January 10, 2026",
+    excerpt:
+      "On 10th January 2026, the University of Ghana Stadium hosted the Ubuntu Inter Orphanage Games by Black Sheep Foundation, bringing together children from various orphanages in a vibrant celebration of unity and joy.",
+    image: 5,
+    time: "6 min read",
+  },
+  {
+    id: "ray-healthcare-world-glaucoma-awareness-week",
+    title: "Shining Light on the Silent Thief of Sight: R.A.Y. Healthcare Africa Marks World Glaucoma Awareness Week",
+    tag: "Healthcare & Awareness",
+    author: "R.A.Y. Healthcare Africa",
+    date: "March 2026",
+    excerpt:
+      "In recognition of World Glaucoma Awareness Week, R.A.Y. Healthcare Africa launched an online campaign to educate the public about glaucoma, a leading cause of irreversible blindness worldwide.",
+    image: 6,
+    time: "6 min read",
+  },
+  {
+    id: "ray-healthcare-gnat-eye-screening-2026",
+    title: "R.A.Y. Healthcare Africa Returns for Second Year of Eye Screening at GNAT Annual Meeting",
+    tag: "Healthcare & Community Outreach",
+    author: "R.A.Y. Healthcare Africa",
+    date: "May 1, 2026",
+    excerpt:
+      "For the second consecutive year, R.A.Y. Healthcare Africa partnered with GNAT at their Brong Ahafo annual meeting, providing vision screening and eye health education for educators.",
+    image: 7,
+    time: "6 min read",
+  },
   // {
   //   id: "smart-technology-africa-digital-transformation",
   //   title: "Building the Future: How Smart Technology is Transforming Africa’s Digital Landscape",

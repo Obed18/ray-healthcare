@@ -47,7 +47,7 @@
   height: 630px;
 }
 
-.badge {
+.success-badge {
   position: absolute;
   top: 12px;
   left: 12px;
@@ -137,7 +137,6 @@
 }
 
 .quote-top{
-    display: flex;
     align-items: center;
     gap: 0.75rem;
 }
