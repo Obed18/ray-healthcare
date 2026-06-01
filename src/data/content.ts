@@ -24,8 +24,14 @@ export const teamMembers = [
     image: 0,
   },
   {
+    name: "Dr Agyei-Poku Akua Agyeiwaa (OD)",
+    role: "Chief Financial Officer",
+    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
+    image: 27,
+  },
+  {
     name: "Dr Julian Sakyibea Yeboah (OD)",
-    role: "Financial Secretary",
+    role: "Deputy Financial Officer",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
     image: 5,
   },
