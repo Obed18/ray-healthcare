@@ -108,7 +108,7 @@ const Footer: React.FC = () => {
               <li>Home</li>
               <li>About Us</li>
               <li>Our Services</li>
-              <li>Our Impactt</li>
+              <li>Our Impact</li>
               <li>Get Involved</li>
             </ul>
           </motion.div>
