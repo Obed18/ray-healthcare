@@ -32,13 +32,13 @@
 }
 
 .blog-badge {
-  background-color: #51b64d4e;
+  background-color: #6fbc6c1d;
   color: #50b64d;
-  font-weight: bold;
   padding: 0.25rem 0.75rem;
   border-radius: 1rem;
   display: inline-block;
   margin-bottom: 1rem;
+  border: 1px solid #50b64d;
 }
 
 .blog-featured-text h2 {

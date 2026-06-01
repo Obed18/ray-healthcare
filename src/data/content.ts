@@ -24,8 +24,8 @@ export const teamMembers = [
     image: 0,
   },
   {
-    name: "Dr Agyei-Poku Akua Agyeiwaa (OD)",
-    role: "Chief Financial Officer",
+    name: "Dr Julian Sakyibea Yeboah (OD)",
+    role: "Financial Secretary",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
     image: 5,
   },
@@ -152,6 +152,28 @@ export const kumasiMembers = [
     image: 15,
   },
 ];
+
+export const boardMembers = [
+  {
+    name: "Prof. Mohammed Abdul-Kabir",
+    role: "Patron",
+    bio: "Head of Department (Optometry and Visual Science, KNUST) ",
+    image: 25
+  },
+  {
+    name: "Dr. Ruqyah Odumah Domson (OD)",
+    role: "Board of Advisors",
+    bio: "Watborg Eye Services",
+    image: 26
+  },
+  // {
+  //   name: "Ayerkie Christabel Nuertey",
+  //   role: "General secretary",
+  //   bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
+  //   image: 20
+  // },
+];
+
 
 export const blogPosts = [
   {

@@ -7,9 +7,9 @@ import AboutHighlight from "../components/AboutHighlight";
 import FeaturedArticle from "../components/FeaturedArticle";
 // import HeroVideo from "../components/HeroVideo";
 import Footer from "../components/Footer";
-// import BotIcon from "../components/BotIcon";
+import IconHovers from "../components/IconHovers";
 // import ChatSupport from "../components/ChatSupport";
-// import ConsultationSection from "../components/ConsultationSection";
+import UpcomingEvents from "../components/UpcomingEvents";
 
 const Home: React.FC = () => {
   //   const [showChat, setShowChat] = useState<boolean>(false);
@@ -25,9 +25,9 @@ const Home: React.FC = () => {
         <Hero />
         <CoreValuesSection />
         <FeaturedArticle />
+        <UpcomingEvents />
         <AboutHighlight />
-        {/* 
-        <ConsultationSection /> */}
+        <IconHovers />
       </div>
     </div>
   );

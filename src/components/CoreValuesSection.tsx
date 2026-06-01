@@ -5,8 +5,9 @@ import { motion } from "framer-motion";
 import {
   CheckCircle,
   HandHelping,
-  Scale,
+  Scale, Mail,
 } from "lucide-react";
+
 
 const values = [
   {

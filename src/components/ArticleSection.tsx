@@ -5,6 +5,7 @@ import { User2, Calendar, Clock, Link as LinkIcon } from "lucide-react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import type { Section, BlogPost } from "../data/blogData";
 
 const FacebookIcon = FaFacebookF as unknown as React.FC<{ size?: number }>;
 const LinkedinIcon = FaLinkedinIn as unknown as React.FC<{ size?: number }>;
@@ -12,31 +13,7 @@ const TwitterIcon = FaXTwitter as unknown as React.FC<{ size?: number }>;
 
 /* ================= TYPES ================= */
 
-interface Section {
-  image?: string;
-  heading?: string;
-  content?: string | string[];
-  list?: string[];
-}
-
-interface NavPost {
-  id: string;
-  title: string;
-  image?: string;
-}
-
-export interface Blog {
-  id: string;
-  title: string;
-  category: string;
-  author: string;
-  date: string;
-  readTime: string;
-  tags?: string[];
-  sections: Section[];
-  prev?: NavPost;
-  next?: NavPost;
-}
+export type Blog = BlogPost;
 
 interface ShareSectionProps {
   tags: string[];
@@ -172,14 +149,33 @@ const ArticleSection: React.FC<ArticleSectionProps> = ({ blog }) => {
               </div>
             )}
 
+            {section.video && (
+              <div className="article-image-container">
+                <video
+                  controls
+                  className="article-image"
+                  width="100%"
+                  style={{ maxWidth: "100%", height: "auto" }}
+                >
+                  <source src={section.video} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            )}
+
             {section.heading && <h2>{section.heading}</h2>}
 
-            {section.content &&
-              (Array.isArray(section.content) ? (
-                section.content.map((p: string, i: number) => <p key={i}>{p}</p>)
-              ) : (
-                <p>{section.content}</p>
-              ))}
+            {section.content && (
+              <>
+                {Array.isArray(section.content) ? (
+                  section.content.map((paragraph, paragraphIndex) => (
+                    <p key={paragraphIndex}>{paragraph}</p>
+                  ))
+                ) : (
+                  <p>{section.content}</p>
+                )}
+              </>
+            )}
 
             {section.list && (
               <div className="numbered-list-container">
@@ -200,7 +196,7 @@ const ArticleSection: React.FC<ArticleSectionProps> = ({ blog }) => {
 
         <div className="post-nav-container">
           {blog.prev && (
-            <Link to={`/blog/${blog.prev.id}`} className="link-text">
+            <Link to={`/blog/${blog.prev.id}`} className="link-text1">
               <motion.div
                 className="post-nav-item"
                 whileHover={{ scale: 1.05 }}
@@ -224,7 +220,7 @@ const ArticleSection: React.FC<ArticleSectionProps> = ({ blog }) => {
           )}
 
           {blog.next && (
-            <Link to={`/blog/${blog.next.id}`} className="link-text">
+            <Link to={`/blog/${blog.next.id}`} className="link-text1">
               <motion.div
                 className="post-nav-item"
                 whileHover={{ scale: 1.05 }}

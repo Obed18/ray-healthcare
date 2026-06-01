@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Eye, ArrowRight, ArrowUp, Mail, Phone, MapPin } from "lucide-react";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter, FaWhatsapp } from "react-icons/fa6";
+import { FaTiktok } from "react-icons/fa6";
 
 type IconProps = {
   size?: number;
@@ -15,6 +16,7 @@ const InstagramIcon: React.FC<IconProps> = (props) => React.createElement(FaInst
 const TwitterIcon: React.FC<IconProps> = (props) => React.createElement(FaXTwitter as any, props);
 const LinkedinIcon: React.FC<IconProps> = (props) => React.createElement(FaLinkedinIn as any, props);
 const WhatsappIcon: React.FC<IconProps> = (props) => React.createElement(FaWhatsapp as any, props);
+const TiktokIcon: React.FC<IconProps> = (props) => React.createElement(FaTiktok as any, props);
 
 const Footer: React.FC = () => {
   return (
@@ -61,20 +63,37 @@ const Footer: React.FC = () => {
             </p>
 
              <div className="socials">
-               <a href="#" className="link-text">
+               {/* <a href="#" className="link-text">
                  <FacebookIcon size={18} />
-               </a>
+               </a> */}
 
-               <a href="#" className="link-text">
-                 <InstagramIcon size={18} />
-               </a>
+        <a href="https://www.instagram.com/r.a.y._healthcare_africa?igsh=NW9qZXZ0Z3p1ajRu&utm_source=qr" className="link-text">
+          <InstagramIcon size={18} />
+        </a>
 
-               <a href="#" className="link-text">
+        <a href="https://www.tiktok.com/@rayhealthcareafrica?_r=1&_t=ZS-96Zc55qnSgX" className="link-text">
+          <TiktokIcon size={18} />
+        </a>
+
+        <a href="https://wa.me/233548064492"
+          className="link-text"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <WhatsappIcon size={18} className="icon" />
+        </a>
+
+
+        <a href="mailto:rayhealthcareafrica@gmail.com" className="link-text">
+          <Mail size={18} />
+        </a>
+
+               {/* <a href="#" className="link-text">
                  <TwitterIcon size={18} />
                </a>
                <a href="#" className="link-text">
                  <LinkedinIcon size={18} />
-               </a>
+               </a> */}
              </div>
           </motion.div>
 

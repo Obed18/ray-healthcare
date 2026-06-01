@@ -5,6 +5,7 @@ import Ready from "../components/Ready";
 import ImpactNumbers from "../components/ImpactNumbers";
 import ImpactPartners from "../components/ImpactPartners";
 import QuotesSection from "../components/QuotesSection";
+import IconHovers from "../components/IconHovers";
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <ImpactNumbers />
       <ImpactPartners />
       <Ready />
+      <IconHovers />
     </div>
   );
 };

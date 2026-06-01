@@ -2,6 +2,7 @@
 
 export interface Section {
   image?: string;
+  video?: string;
   heading?: string;
   content?: string | string[];
   list?: string[];
@@ -47,6 +48,7 @@ const blogPosts: BlogPost[] = [
   sections: [
     {
       heading: "Introduction",
+      image: "/events/event1.jpeg",
       content: [
         "On 14th March 2026, R.A.Y. Healthcare organized an insightful webinar on Ocular Manifestations of Systemic Diseases aimed at highlighting the important relationship between systemic health and ocular findings.",
         "The webinar brought together healthcare professionals, students, and participants interested in understanding how the eye can provide critical clues to systemic diseases.",
@@ -55,6 +57,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Guest Speaker and Moderator",
+      image: "/events/event1.jpeg",
       content: [
         "The webinar featured Dr. Geoffrey Wiafe – MD, MMed Oph, FCOphth (ECSA), Ophthalmologist at Watborg Eye Services and Part-time Lecturer at the Korle Bu Ophthalmic Nursing School – as the guest speaker.",
         "Miss Najah Chamoun served as the moderator for the session, facilitating discussions and audience interaction throughout the program.",
@@ -62,6 +65,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Key Insights from the Session",
+      image: "/events/event2.jpeg",
       content: [
         "Dr. Geoffrey Wiafe delivered a perspective-widening, thought-provoking, and highly engaging presentation on the ocular manifestations of systemic diseases.",
         "One of the key highlights of the session was his emphasis on vitamin deficiencies, a commonly overlooked yet significant factor in the development of ocular diseases.",
@@ -70,6 +74,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Topics Covered",
+      image: "/events/event3.jpeg",
       content: [
         "The session guided participants through clinical presentations, diagnostic approaches, imaging techniques, management strategies, and treatment options related to ocular manifestations of systemic diseases.",
         "Complex medical concepts were presented in a practical and accessible manner, making the webinar valuable for participants from diverse healthcare backgrounds.",
@@ -93,6 +98,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Interactive Learning Experience",
+      image: "/events/event4.jpeg",
       content: [
         "Participants remained actively engaged throughout the webinar through interactive discussions and question-and-answer sessions.",
         "The opportunities for interaction enriched participants’ understanding and encouraged collaborative learning among attendees.",
@@ -100,6 +106,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Importance of Ocular Examination",
+      image: "/events/event5.jpeg",
       content: [
         "The webinar served as a powerful reminder that careful ocular examination can reveal early and sometimes life-threatening systemic conditions.",
         "Dr. Geoffrey Wiafe demonstrated how the eye can provide critical diagnostic clues that support timely intervention and management of systemic diseases.",
@@ -107,6 +114,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Key Takeaways",
+      image: "/events/event6.jpeg",
       list: [
         "The eye can reveal important signs of systemic disease",
         "Early diagnosis can improve patient outcomes",
@@ -117,6 +125,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Impact of the Webinar",
+      image: "/events/event7.jpeg",
       content: [
         "Overall, the session was highly informative, practical, and clinically relevant.",
         "Participants gained valuable knowledge that extends beyond ophthalmology into broader patient-centered healthcare.",
@@ -125,6 +134,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Appreciation",
+      image: "/events/event8.jpeg",
       content: [
         "R.A.Y. Healthcare extends heartfelt appreciation to Dr. Geoffrey Wiafe for his enlightening presentation and to all participants who contributed to the success of the webinar.",
         "The organization remains committed to promoting healthcare education, awareness, and professional development through impactful programs and initiatives.",
@@ -132,6 +142,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Conclusion",
+      image: "/events/event1.jpeg",
       content: [
         "The Ocular Manifestations of Systemic Diseases webinar organized by R.A.Y. Healthcare highlighted the critical role of ocular examinations in detecting and managing systemic illnesses.",
         "By combining expert insights, practical clinical knowledge, and interactive learning, the session equipped participants with a deeper understanding of holistic healthcare approaches.",
@@ -139,6 +150,16 @@ const blogPosts: BlogPost[] = [
       ],
     },
   ],
+  prev: {
+    id: "ray-healthcare-gnat-eye-screening-2026",
+    title: "R.A.Y. Healthcare Africa Returns for Second Year of Eye Screening at GNAT Annual Meeting",
+    image: "/events/event1.jpeg",
+  },
+  next: {
+    id: "ray-healthcare-eastern-region-super-zonals",
+    title: "R.A.Y. Healthcare Africa Brings Vision Care to the Eastern Region Super Zonals Sports Competition",
+    image: "/events/event8.jpeg",
+  },
 },    
 {
   id: "ray-healthcare-eastern-region-super-zonals",
@@ -159,6 +180,7 @@ const blogPosts: BlogPost[] = [
   sections: [
     {
       heading: "Introduction",
+      image: "/blog/zonals1.jpeg",
       content: [
         "From 5th to 7th May 2025, R.A.Y. Healthcare Africa proudly participated in the Eastern Region Super Zonals Sports Competition, delivering comprehensive vision screening and eye health education to thousands of students gathered for the highly anticipated sporting event.",
         "The competition brought together students from across the Eastern Region, with an estimated attendance of over 40,000 young people throughout the three-day event.",
@@ -167,6 +189,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Promoting Eye Health Beyond the Classroom",
+      image: "/blog/zonals2.jpeg",
       content: [
         "Throughout the event, the R.A.Y. Healthcare Africa team conducted vision screenings for students to help identify undetected visual challenges that could affect both academic performance and sporting activities.",
         "The outreach emphasized the importance of preventive eye care and the need for regular eye examinations among young people.",
@@ -175,6 +198,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Vision Screening Services",
+      image: "/blog/zonals3.jpeg",
       content: [
         "During the outreach, students were screened for a variety of common visual and eye health concerns.",
         "The screenings aimed to identify potential issues early and encourage timely intervention where necessary.",
@@ -188,6 +212,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Interactive Eye Health Education",
+      image: "/blog/zonals4.jpeg",
       content: [
         "In addition to the screenings, the team organized interactive eye health education sessions throughout the competition grounds.",
         "These sessions increased awareness about the importance of routine eye examinations, healthy visual habits, and recognizing early symptoms of eye problems.",
@@ -196,6 +221,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Impacting Thousands of Young Lives",
+      image: "/blog/zonals5.jpeg",
       content: [
         "With more than 40,000 students attending the sports competition over the three-day period, the outreach provided a unique platform to reach a large and diverse student population.",
         "For many students, it was their very first eye screening experience, highlighting the limited access to routine eye care services in many communities.",
@@ -211,6 +237,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Commitment to Community Eye Health",
+      image: "/blog/zonals7.jpeg",
       content: [
         "Community outreach remains a core part of R.A.Y. Healthcare Africa’s mission to make quality and accessible eye care available to all.",
         "By participating in major educational and community events such as the Eastern Region Super Zonals Sports Competition, the organization continues to bridge gaps in eye health awareness and promote healthier futures for young people.",
@@ -218,6 +245,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Acknowledgement and Appreciation",
+      image: "/blog/zonals8.jpeg",
       content: [
         "The success of the outreach was made possible through the dedication of volunteers, healthcare professionals, organizers, and partners who contributed their time and expertise toward improving student eye health.",
         "R.A.Y. Healthcare Africa extends sincere appreciation to everyone who supported the initiative and helped make the outreach impactful and successful.",
@@ -225,6 +253,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Looking Ahead",
+      image: "/blog/zonals1.jpeg",
       content: [
         "R.A.Y. Healthcare Africa remains committed to expanding vision screening programs and eye health education initiatives across schools and communities throughout Ghana and beyond.",
         "The organization continues to advocate for increased awareness of the vital role healthy vision plays in education, sports participation, confidence, and overall quality of life.",
@@ -232,6 +261,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Conclusion",
+      image: "/blog/zonals2.jpeg",
       content: [
         "The Eastern Region Super Zonals Sports Competition outreach demonstrated the importance of integrating healthcare services into major youth and community events.",
         "Through vision screenings, education, and community engagement, R.A.Y. Healthcare Africa positively impacted thousands of students while promoting the importance of preventive eye care.",
@@ -239,6 +269,16 @@ const blogPosts: BlogPost[] = [
       ],
     },
   ],
+  prev: {
+    id: "ray-healthcare-ocular-manifestations-webinar",
+    title: "R.A.Y. Healthcare Hosts Webinar on Ocular Manifestations of Systemic Diseases",
+    image: "/blog/webinar.jpeg",
+  },
+  next: {
+    id: "ray-healthcare-gnat-annual-meeting",
+    title: "R.A.Y. Healthcare Africa Supports Educators with Vision Screening at GNAT Annual Meeting",
+    image: "/events/event7.jpeg",
+  },
 },
 {
   id: "ray-healthcare-gnat-annual-meeting",
@@ -259,6 +299,7 @@ const blogPosts: BlogPost[] = [
   sections: [
     {
       heading: "Introduction",
+      image: "/blog/gnat1.jpeg",
       content: [
         "On 23rd and 24th July 2025, R.A.Y. Healthcare Africa participated in the Annual Meeting of the Ghana National Association of Teachers (GNAT) held in the Brong Ahafo Region, providing vision screening and eye health education services to educators from across the region.",
         "The two-day event brought together over 1,000 teachers and education professionals, creating an important platform to promote awareness about eye health among individuals who play a vital role in shaping the future of Ghana’s children.",
@@ -267,6 +308,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Prioritizing the Eye Health of Educators",
+      image: "/blog/gnat2.jpeg",
       content: [
         "Teaching is a profession that places significant demand on the eyes through prolonged reading, screen exposure, marking, and classroom activities.",
         "Recognizing the importance of healthy vision for educators, R.A.Y. Healthcare Africa used the opportunity to provide accessible eye care services directly at the event.",
@@ -275,6 +317,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Services Provided During the Outreach",
+      image: "/blog/gnat3.jpeg",
       content: [
         "Throughout the outreach program, participants received professional eye care support and education tailored to their needs.",
         "The screenings also allowed the team to identify individuals who required further assessment or specialized eye care services.",
@@ -289,6 +332,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Creating Awareness Through Education",
+      image: "/blog/gnat4.jpeg",
       content: [
         "Beyond the screenings, the R.A.Y. Healthcare Africa team engaged participants in discussions about common eye conditions, digital eye strain, the effects of aging on vision, and preventive eye care practices.",
         "The educational sessions emphasized the importance of early detection and how visual problems can affect productivity, comfort, and overall wellbeing both inside and outside the classroom.",
@@ -321,6 +365,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Key Takeaways",
+      image: "/blog/gnat5.jpeg",
       list: [
         "Regular eye examinations are essential for educators",
         "Digital eye strain and prolonged visual tasks can affect productivity",
@@ -331,6 +376,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Conclusion",
+      video: "/blog/gnat6.mp4",
       content: [
         "The GNAT Annual Meeting outreach successfully provided vision screening and eye health education to over 1,000 educators in the Brong Ahafo Region.",
         "By combining professional eye care services with awareness creation, R.A.Y. Healthcare Africa helped promote healthier vision habits among teachers and education professionals.",
@@ -338,6 +384,16 @@ const blogPosts: BlogPost[] = [
       ],
     },
   ],
+  prev: {
+    id: "ray-healthcare-gnat-annual-meeting",
+    title: "R.A.Y. Healthcare Africa Supports Educators with Vision Screening at GNAT Annual Meeting",
+    image: "/events/event7.jpeg",
+  },
+  next: {
+    id: "ray-healthcare-lemps-foundation-shai-osudoku-outreach",
+    title: "R.A.Y. Healthcare Africa Partners with LEMPs Foundation to Deliver Vision Care in Shai Osudoku Communities",
+    image: "/events/event6.jpeg",
+  },
 },
 {
   id: "ray-healthcare-lemps-foundation-shai-osudoku-outreach",
@@ -358,6 +414,7 @@ const blogPosts: BlogPost[] = [
   sections: [
     {
       heading: "Introduction",
+      image: "/blog/lemps1.jpeg",
       content: [
         "On 29th November 2025, R.A.Y. Healthcare Africa partnered with LEMPs Foundation to organize a community vision screening and eye health education outreach within the Shai Osudoku District.",
         "The outreach focused on the farming communities of Tokpo 1, Tokpo 2, and Agbekotseko Township, where residents received free eye screenings, professional eye care guidance, and health education.",
@@ -366,6 +423,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Bringing Eye Care Closer to Farming Communities",
+      image: "/blog/lemps2.jpeg",
       content: [
         "Access to quality eye care remains a major challenge in many rural communities, especially in farming areas where healthcare services are often limited or difficult to access.",
         "Through this partnership, R.A.Y. Healthcare Africa and LEMPs Foundation sought to bridge the healthcare gap by delivering eye care services directly to residents within their communities.",
@@ -374,6 +432,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Vision Screening Services",
+      image: "/blog/lemps3.jpeg",
       content: [
         "Residents from Tokpo 1, Tokpo 2, and Agbekotseko Township actively participated in the outreach exercise.",
         "The healthcare team conducted screenings aimed at identifying common vision and eye health problems affecting community members.",
@@ -389,6 +448,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Eye Health Education",
+      image: "/blog/lemps4.jpeg",
       content: [
         "Beyond the screenings, the outreach strongly emphasized community education on proper eye care and preventive health practices.",
         "Residents participated in interactive educational sessions designed to increase awareness about maintaining healthy vision and recognizing early signs of eye disease.",
@@ -404,6 +464,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Community Engagement and Impact",
+      image: "/blog/lemps5.jpeg",
       content: [
         "The outreach fostered meaningful interaction between healthcare professionals and community members, creating an environment for learning, support, and awareness.",
         "Residents expressed appreciation for the opportunity to access free eye care services within their communities.",
@@ -412,6 +473,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Strengthening Community Partnerships",
+      image: "/blog/lemps6.jpeg",
       content: [
         "The collaboration between R.A.Y. Healthcare Africa and LEMPs Foundation reflects a shared commitment to improving healthcare access and promoting healthier communities through outreach and education.",
         "By working together, both organizations were able to expand their reach and provide meaningful support to underserved populations within the district.",
@@ -420,6 +482,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Commitment to Accessible Eye Care",
+      image: "/blog/lemps8.jpeg",
       content: [
         "Community outreach programs remain an essential part of the mission of R.A.Y. Healthcare Africa in delivering quality and accessible eye care services across Ghana.",
         "The organization continues to prioritize underserved communities through preventive healthcare initiatives, education, and strategic partnerships.",
@@ -428,6 +491,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Key Takeaways",
+      image: "/blog/lemps9.jpeg",
       list: [
         "Rural communities benefit significantly from accessible preventive eye care services",
         "Regular eye examinations support early detection of vision problems",
@@ -445,6 +509,16 @@ const blogPosts: BlogPost[] = [
       ],
     },
   ],
+  prev: {
+    id: "ray-healthcare-gnat-annual-meeting",
+    title: "R.A.Y. Healthcare Africa Supports Educators with Vision Screening at GNAT Annual Meeting",
+    image: "/events/event7.jpeg",
+  },
+  next: {
+    id: "ray-healthcare-feed-the-streets-koforidua",
+    title: "R.A.Y. Healthcare Africa Partners with St Joana Foundation for “Feed the Streets” Outreach in Koforidua",
+    image: "/events/event5.jpeg",
+  },
 },
 {
   id: "ray-healthcare-feed-the-streets-koforidua",
@@ -465,6 +539,7 @@ const blogPosts: BlogPost[] = [
   sections: [
     {
       heading: "Introduction",
+      image: "/blog/stjoana1.jpeg",
       content: [
         "On 20th December 2025, R.A.Y. Healthcare Africa partnered with St Joana Foundation during their “Feed the Streets” donation and health screening campaign held in Koforidua.",
         "The outreach combined acts of compassion, healthcare, and community support as volunteers and healthcare professionals came together to provide donations, health services, and eye care support to individuals within the community during the festive season.",
@@ -473,6 +548,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Combining Compassion with Healthcare",
+      image: "/blog/stjoana2.jpeg",
       content: [
         "The “Feed the Streets” campaign was organized to support vulnerable individuals and underserved members of the community through food donations, healthcare services, and public health education.",
         "As part of the initiative, the team from R.A.Y. Healthcare Africa conducted vision screenings and eye health education sessions for participants, helping to identify individuals who may be living with undetected visual problems or eye conditions.",
@@ -481,6 +557,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Vision Screening Activities",
+      image: "/blog/stjoana3.jpeg",
       content: [
         "The outreach focused on providing basic eye care assessments and educating participants on the importance of maintaining healthy vision.",
         "Healthcare professionals engaged community members through screenings, consultations, and personalized guidance on seeking professional eye care where necessary.",
@@ -495,6 +572,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Promoting Awareness on Eye Health",
+      image: "/blog/stjoana4.jpeg",
       content: [
         "In addition to screenings, the outreach emphasized the importance of preventive eye care and regular eye examinations.",
         "Community members were educated on practical ways to protect their vision and identify early signs of eye-related conditions.",
@@ -509,6 +587,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Strengthening Community Impact Through Partnership",
+      image: "/blog/stjoana5.jpeg",
       content: [
         "The collaboration between R.A.Y. Healthcare Africa and St Joana Foundation demonstrated the power of partnerships in creating positive social impact.",
         "By combining healthcare services with charitable community support, the outreach was able to address both immediate needs and long-term wellbeing within the community.",
@@ -517,6 +596,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Advancing the Mission of Accessible Eye Care",
+      image: "/blog/stjoana6.jpeg",
       content: [
         "At R.A.Y. Healthcare Africa, community outreach continues to be a key part of the organization’s mission to make quality and accessible eye care available to all.",
         "The organization remains committed to collaborating with institutions, foundations, and community groups to expand access to vision care and health education across Ghana.",
@@ -525,6 +605,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Key Takeaways",
+      image: "/blog/stjoana8.jpeg",
       list: [
         "Community partnerships can improve healthcare access",
         "Preventive eye care is essential for healthy living",
@@ -535,6 +616,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Conclusion",
+      image: "/blog/stjoana9.jpeg",
       content: [
         "The “Feed the Streets” outreach in Koforidua successfully combined healthcare, compassion, and community support to positively impact the lives of many individuals.",
         "Through vision screenings, eye health education, and charitable support, the initiative reinforced the importance of accessible healthcare services within underserved communities.",
@@ -542,6 +624,16 @@ const blogPosts: BlogPost[] = [
       ],
     },
   ],
+  prev: {
+    id: "ray-healthcare-lemps-foundation-shai-osudoku-outreach",
+    title: "R.A.Y. Healthcare Africa Partners with LEMPs Foundation to Deliver Vision Care in Shai Osudoku Communities",
+    image: "/events/event6.jpeg",
+  },
+  next: {
+    id: "ray-healthcare-all-hearts-foundation-outreach",
+    title: "Healthcare & Community Outreach",
+    image: "/events/event4.jpeg",
+  },
 },
 {
   id: "ray-healthcare-all-hearts-foundation-outreach",
@@ -562,6 +654,7 @@ const blogPosts: BlogPost[] = [
   sections: [
     {
       heading: "Introduction",
+      image: "/blog/allhearts2.jpeg",
       content: [
         "On 28th December 2025, R.A.Y. Healthcare Africa partnered with All Hearts Foundation during a donation outreach at Chosen Children Center in Accra.",
         "The outreach was organized to provide support, care, and encouragement to children at the orphanage through donations, health education, and healthcare services.",
@@ -592,6 +685,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Supporting the Wellbeing of Vulnerable Children",
+      image: "/blog/allhearts3.jpeg",
       content: [
         "Children in care centers often face challenges in accessing routine healthcare services, making community outreach initiatives especially important.",
         "Through the partnership with All Hearts Foundation, R.A.Y. Healthcare Africa contributed toward improving the wellbeing of the children while promoting preventive eye health.",
@@ -607,6 +701,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "The Power of Partnership and Community Service",
+      image: "/blog/allhearts4.jpeg",
       content: [
         "The collaboration between R.A.Y. Healthcare Africa and All Hearts Foundation reflects the importance of partnerships in creating meaningful community impact.",
         "By combining healthcare outreach with charitable support, both organizations were able to address important needs while spreading compassion and hope during the festive season.",
@@ -632,6 +727,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Conclusion",
+      video: "/blog/allhearts5.mp4",
       content: [
         "The outreach at Chosen Children Center served as another reminder that healthcare, kindness, and community support can together create lasting impact in the lives of those who need it most.",
         "Through partnerships like this, R.A.Y. Healthcare Africa continues to extend healthcare services beyond clinical settings and into communities where support is greatly needed.",
@@ -639,6 +735,16 @@ const blogPosts: BlogPost[] = [
       ],
     },
   ],
+  prev: {
+    id: "ray-healthcare-feed-the-streets-koforidua",
+    title: "R.A.Y. Healthcare Africa Partners with St Joana Foundation for “Feed the Streets",
+    image: "/events/event5.jpeg",
+  },
+  next: {
+    id: "ray-healthcare-ubuntu-inter-orphanage-games-2026",
+    title: "Vision Beyond the Game: R.A.Y. Healthcare Africa at the Ubuntu Inter Orphanage Games",
+    image: "/events/event3.jpeg",
+  },
 },
 {
   id: "ray-healthcare-ubuntu-inter-orphanage-games-2026",
@@ -658,6 +764,7 @@ const blogPosts: BlogPost[] = [
   sections: [
     {
       heading: "Introduction",
+      image: "/blog/ubuntu1.jpeg",
       content: [
         "On 10th January 2026, the University of Ghana Stadium came alive with excitement, laughter, and a strong spirit of togetherness as children from different orphanages gathered for the Ubuntu Inter Orphanage Games organized by Black Sheep Foundation.",
         "The event brought together sports, joy, and community engagement, creating a vibrant atmosphere filled with encouragement and shared experiences.",
@@ -666,6 +773,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Event Overview",
+      image: "/blog/ubuntu2.jpeg",
       content: [
         "The Ubuntu Inter Orphanage Games served as a platform for inclusion, confidence-building, and friendship among children from various orphanages.",
         "Beyond the sporting competitions, the event created opportunities for mentorship, support, and holistic child development.",
@@ -674,6 +782,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Healthcare Presence and Role",
+      image: "/blog/ubuntu3.jpeg",
       content: [
         "As part of its commitment to expanding access to quality eye care, R.A.Y. Healthcare Africa provided on-site vision screening and eye health education during the event.",
         "The outreach focused on identifying possible visual challenges that could affect learning, sports participation, and daily activities.",
@@ -682,6 +791,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Creating Impact One Child at a Time",
+      image: "/blog/ubuntu4.jpeg",
       content: [
         "Throughout the event, children underwent basic eye screenings conducted by the R.A.Y. Healthcare Africa team.",
         "For many participants, this was their first experience receiving an eye examination.",
@@ -690,6 +800,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Eye Health Education and Awareness",
+      image: "/blog/ubuntu5.jpeg",
       content: [
         "In addition to screenings, the team engaged children and caregivers in meaningful conversations about eye health.",
         "These discussions were designed to build awareness and encourage proactive eye care practices within communities.",
@@ -704,6 +815,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "More Than a Sporting Event",
+      image: "/blog/ubuntu6.jpeg",
       content: [
         "The Ubuntu Inter Orphanage Games represented more than competition on the field.",
         "It was a celebration of hope, inclusion, and opportunity for children from different backgrounds.",
@@ -712,6 +824,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "A Partnership for Community Impact",
+      image: "/blog/ubuntu7.jpeg",
       content: [
         "The collaboration between R.A.Y. Healthcare Africa and Black Sheep Foundation highlights the power of partnerships driven by compassion and service.",
         "Together, both organizations contributed to an event that blended sports, healthcare, and social support to create meaningful impact.",
@@ -720,6 +833,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Looking Ahead",
+      image: "/blog/ubuntu8.jpeg",
       content: [
         "R.A.Y. Healthcare Africa remains committed to reaching underserved communities through impactful outreach programs.",
         "Events like the Ubuntu Inter Orphanage Games reinforce the importance of integrating healthcare into everyday community activities.",
@@ -728,6 +842,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Appreciation",
+      image: "/blog/ubuntu9.jpeg",
       content: [
         "R.A.Y. Healthcare Africa extends heartfelt appreciation to Black Sheep Foundation for the invitation and successful organization of the Ubuntu Inter Orphanage Games.",
         "Special appreciation also goes to all volunteers, caregivers, and partners who contributed to the success of the outreach.",
@@ -735,6 +850,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Conclusion",
+      image: "/blog/ubuntu10.jpeg",
       content: [
         "The Ubuntu Inter Orphanage Games demonstrated how sports and healthcare can come together to create meaningful community impact.",
         "Through vision screening and eye health education, R.A.Y. Healthcare Africa helped ensure that children not only enjoyed the event but also received essential healthcare support.",
@@ -742,32 +858,17 @@ const blogPosts: BlogPost[] = [
       ],
     },
   ],
-},
-  {
-    id: "ai-for-business",
-    category: "Business & AI",
-    title: "AI for Business: Automation Success Stories",
-    author: "Akosua Boateng",
-    date: "2026",
-    readTime: "5 min read",
-    sections: [
-      {
-        heading: "Overview",
-        content: [
-          "Businesses in Ghana are leveraging AI to automate operations and improve efficiency.",
-        ],
-      },
-      {
-        heading: "Applications",
-        list: [
-          "Customer service chatbots",
-          "Fraud detection",
-          "Product recommendations",
-        ],
-      },
-    ],
+  prev: {
+    id: "ray-healthcare-all-hearts-foundation-outreach",
+    title: "R.A.Y. Healthcare Africa Partners with All Hearts Foundation to Support Children at Chosen Children Center",
+    image: "/events/event4.jpeg",
   },
-
+  next: {
+    id: "ray-healthcare-world-glaucoma-awareness-week",
+    title: "Shining Light on the Silent Thief of Sight: R.A.Y. Healthcare Africa Marks World Glaucoma Awareness Week",
+    image: "/events/event3.jpeg",
+  },
+},
 {
   id: "ray-healthcare-world-glaucoma-awareness-week",
   category: "Healthcare & Awareness",
@@ -787,6 +888,7 @@ const blogPosts: BlogPost[] = [
   sections: [
     {
       heading: "Introduction",
+      video: "/blog/glaucoma1.mp4",
       content: [
         "In recognition of World Glaucoma Awareness Week, R.A.Y. Healthcare Africa launched an online awareness and education campaign aimed at educating the public about glaucoma, one of the leading causes of irreversible blindness worldwide.",
         "Through educational posts, public engagement activities, and digital awareness campaigns across social media platforms, the organization used the week to increase understanding of glaucoma, encourage early eye examinations, and promote preventive eye care practices.",
@@ -818,6 +920,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Who Is at Risk?",
+      video: "/blog/glaucoma2.mp4",
       content: [
         "The campaign also highlighted that glaucoma can affect anyone regardless of age or background.",
         "However, individuals with a family history of glaucoma, older adults, and people with certain medical conditions may have a higher risk of developing the disease.",
@@ -834,6 +937,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Promoting Preventive Eye Care",
+      video: "/blog/glaucoma4.mp4",
       content: [
         "One of the key messages throughout the campaign was the importance of preventive eye care and early screening.",
         "The organization emphasized that public awareness and routine eye examinations play a major role in reducing avoidable blindness and preserving long-term eye health.",
@@ -847,6 +951,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Community Impact",
+      video: "/blog/glaucoma5.mp4",
       content: [
         "The awareness campaign successfully promoted conversations around eye health and encouraged more people to pay attention to regular eye care practices.",
         "By providing accessible and easy-to-understand information, the initiative helped improve public understanding of glaucoma and the importance of early intervention.",
@@ -855,6 +960,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Continuing the Fight Against Preventable Blindness",
+      video: "/blog/glaucoma6.mp4",
       content: [
         "At R.A.Y. Healthcare Africa, health education and community awareness remain central to the organization’s mission of making quality and accessible eye care available to all.",
         "World Glaucoma Awareness Week provided another opportunity for the organization to engage communities, spread important health information, and advocate for the early detection of eye diseases.",
@@ -863,6 +969,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Conclusion",
+      video: "/blog/glaucoma6.mp4",
       content: [
         "The World Glaucoma Awareness Week campaign organized by R.A.Y. Healthcare Africa highlighted the importance of education, early screening, and preventive eye care in combating glaucoma.",
         "Through digital engagement, public awareness activities, and accessible health education, the initiative encouraged individuals to prioritize regular eye examinations and seek timely professional care.",
@@ -870,6 +977,16 @@ const blogPosts: BlogPost[] = [
       ],
     },
   ],
+  prev: {
+    id: "ray-healthcare-ubuntu-inter-orphanage-games-2026",
+    title: "Vision Beyond the Game: R.A.Y. Healthcare Africa at the Ubuntu Inter Orphanage Games",
+    image: "/events/event3.jpeg",
+  },
+  next: {
+    id: "ray-healthcare-gnat-eye-screening-2026",
+    title: "R.A.Y. Healthcare Africa Returns for Second Year of Eye Screening at GNAT Annual Meeting",
+    image: "/events/event1.jpeg",
+  },
 },
 {
   id: "ray-healthcare-gnat-eye-screening-2026",
@@ -889,6 +1006,7 @@ const blogPosts: BlogPost[] = [
   sections: [
     {
       heading: "Introduction",
+      image: "/events/event1.png",
       content: [
         "On 1st May 2026, R.A.Y. Healthcare Africa partnered once again with the Ghana National Association of Teachers (GNAT) during their annual meeting in the Brong Ahafo Region to provide vision screening and eye health education for educators.",
         "The outreach formed part of the organization’s ongoing commitment to promoting preventive eye care and increasing awareness about the importance of maintaining healthy vision among teachers and education professionals.",
@@ -934,6 +1052,7 @@ const blogPosts: BlogPost[] = [
     },
     {
       heading: "Reaching Over 500 Educators",
+      video: "/blog/2gnat1.mp4",
       content: [
         "With more than 500 teachers and education professionals attending the annual meeting, the outreach once again demonstrated the value of integrating healthcare initiatives into professional and community events.",
         "The program not only created awareness but also provided an accessible platform for the early detection of possible vision problems among participants.",
@@ -965,6 +1084,16 @@ const blogPosts: BlogPost[] = [
       ],
     },
   ],
+  prev: {
+    id: "ray-healthcare-world-glaucoma-awareness-week",
+    title: "Shining Light on the Silent Thief of Sight: R.A.Y. Healthcare Africa Marks World Glaucoma Awareness Week",
+    image: "/events/event2.jpeg",
+  },
+  next: {
+    id: "ray-healthcare-ocular-manifestations-webinar",
+    title: "R.A.Y. Healthcare Hosts Webinar on Ocular Manifestations of Systemic Diseases",
+    image: "/blog/webinar.jpeg",
+  },
 },
 ];
 

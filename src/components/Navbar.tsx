@@ -1,8 +1,19 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Phone, MapPin, Menu, X, BadgeInfo } from "lucide-react";
+import { Phone, MapPin, Menu, X, BadgeInfo, Mail } from "lucide-react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import "../styles/Navbar.css";
+import { FaWhatsapp } from "react-icons/fa6";
+
+type IconProps = {
+  size?: number;
+  className?: string;
+};
+
+const WhatsappIcon: React.FC<IconProps> = (props) =>
+  React.createElement(FaWhatsapp as any, props);
+
+
 
 const Navbar: React.FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -69,11 +80,22 @@ const Navbar: React.FC = () => {
     <header className="courier-header">
       <div className="courier-topbar">
         <div className="courier-contact">
-          <Phone size={16} className="icon" />
+        <a href="https://wa.me/233548064492"
+          className="top-links"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <WhatsappIcon size={16} className="icon" />
           <span>+233548064492</span>
-
+        </a>
+          <a href="https://www.bing.com/ck/a?!&&p=418c12a103308f351e05fd0b94113fd722b894484a44be78201a5a3d1b432115JmltdHM9MTc4MDI3MjAwMA&ptn=3&ver=2&hsh=4&fclid=2e8a82bb-9836-6466-27cc-9765992b6588&u=a1L21hcHM_Jm1lcGk9NjB-fkVtYmVkZGVkfkxhcmdlTWFwTGluayZ0eT0xOCZxPUFjY3JhJTJDJTIwR3JlYXRlciUyMEFjY3JhJTIwUmVnaW9uJTJDJTIwR2hhbmEmc2F0aWQ9aWQuc2lkJTNBN2RlYTQ0ZWItNjVkMy1jYTZiLWMzNTMtZWFjOTUxY2JkYzUwJnZkcGlkPTU3NjMxMDQxODA0MTE1NjQwMzYmbWI9NS42NjczNzh-LTAuMjg0MTQyfjUuNTE3MTgxfi0wLjA1NDg0NiZwcG9pcz01LjU5MjI3OTY3MjYyMjY4MV8tMC4xNjk0OTQxNTM5MzE3MzY5NV9BY2NyYSUyQyUyMEdyZWF0ZXIlMjBBY2NyYSUyMFJlZ2lvbiUyQyUyMEdoYW5hX34mdj0yJnNWPTEmRk9STT1NSVJFJnFwdnQ9YWNjcmErZ2hhbmErb24rbWFwcw" className="top-links">
           <MapPin size={16} className="icon" />
-          <span>Accra, Ghana</span>
+            <span>Accra, Ghana</span>
+          </a>
+          <a href="mailto:rayhealthcareafrica@gmail.com" className="top-links">
+            <Mail size={16} className="icon" />
+            <span>rayhealthcareafrica@gmail.com</span>
+          </a>
         </div>
 
         <span className="courier-support">

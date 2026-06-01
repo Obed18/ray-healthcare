@@ -17,6 +17,13 @@
   font-family: "Inter", sans-serif;
 }
 
+.upcoming-events-container{
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
 .latest-events-container {
   width: 100%;
   max-width: 1280px;

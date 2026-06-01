@@ -6,6 +6,8 @@ import CoreValues from "../components/CoreValues";
 import AboutSection from "../components/AboutSection";
 import AboutInfo from "../components/AboutInfo";
 import FounderSection from "../components/FounderSection";
+import IconHovers from "../components/IconHovers";
+
 
 const Home = () => {
   return (
@@ -17,6 +19,7 @@ const Home = () => {
       <TeamMembers />
       <VolunteerImpact />
       <JoinMissionCard />
+      <IconHovers />
     </div>
   );
 };

@@ -19,22 +19,15 @@ const AboutSection: React.FC = () => {
           <h2 className="about-heading">Our Story</h2>
 
           <p className="about-text">
-            R.A.Y. Healthcare was founded on the belief that good vision is a
-            basic human right. We serve communities that are often overlooked
-            by traditional healthcare systems—bringing high-quality services
-            directly to their doorsteps.
+            R.A.Y. Healthcare Africa was founded from a simple but powerful belief that quality eye care should not be a privilege limited by location, financial status, or access to healthcare facilities.
           </p>
 
           <p className="about-text">
-            Our name, R.A.Y., stands not only for our founder's initials but
-            also symbolizes our mission to shine a light on the importance of
-            eye health in every home, classroom, and community we serve.
+            Across many communities in Ghana, countless individuals continue to live with preventable or manageable vision problems simply because they lack awareness, access to screening services, or the opportunity to seek professional care early. R.A.Y. Healthcare Africa was created to help bridge that gap by bringing eye care directly to the people who need it most.
           </p>
 
           <p className="about-text">
-            What started as a small initiative has grown into a comprehensive
-            healthcare program that has touched hundreds of lives across Ghana,
-            providing hope and clear vision to those who need it most.
+            What began as a passion for community service and preventive eye care has grown into a movement focused on transforming lives through outreach, education, advocacy, and accessible healthcare initiatives.
           </p>
 
           {/* Mission Card */}

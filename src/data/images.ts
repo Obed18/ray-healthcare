@@ -14,7 +14,7 @@ export const images = {
     "/profiles/Agyapomaa.jpeg",
     "/profiles/Janet.jpeg",
     "/profiles/Farida.jpeg",
-    "/profiles/Agyeiwaa.jpeg",
+    "/profiles/Julian.jpeg",
     "/profiles/Serwaa.jpeg",
     "/profiles/Joana.jpeg",
     "/profiles/Keneth.jpeg",
@@ -34,6 +34,8 @@ export const images = {
     "/profiles/Achiaa.jpeg",
     "/profiles/Charlotte.jpeg",
     "/profiles/Mary.jpeg",
+    "/profiles/Mohammed.jpeg",
+    "/profiles/Ruqyah.jpeg"
   ],
 
   services: {
@@ -61,7 +63,7 @@ export const images = {
     "/events/event4.jpeg",
     "/events/event3.jpeg",
     "/events/event2.jpeg",
-    "/events/event1.jpeg",
+    "/events/event1.png",
     // "/events/event.jpeg",
   ],
 };

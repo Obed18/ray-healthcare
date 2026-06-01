@@ -3,6 +3,8 @@ import Navbar from "../components/Navbar";
 import Button from "../components/button";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import "../styles/Gallery.css";
+import IconHovers from "../components/IconHovers";
+
 
 interface GalleryItem {
   id: number;
@@ -29,11 +31,25 @@ const Gallery: React.FC = () => {
     "Impact",
   ];
 
+  const getGalleryImagePath = (
+    id: number,
+    extension = "jpg"
+  ): string => `/gallery/gallery${id}.${extension}`;
+
+  const handleGalleryImageError = (
+    event: React.SyntheticEvent<HTMLImageElement, Event>
+  ): void => {
+    const img = event.currentTarget;
+    if (img.src.endsWith(".jpg")) {
+      img.src = img.src.replace(/\.jpg$/, ".jpeg");
+    }
+  };
+
   const galleryItems: GalleryItem[] = Array.from(
-    { length: 367 },
+    { length: 67 },
     (_, i) => ({
       id: i + 1,
-      src: `/gallery/gallery${i + 1}.jpg`,
+      src: getGalleryImagePath(i + 1),
       category: "Community",
       title: `Gallery Image ${i + 1}`,
       description: "",
@@ -92,6 +108,7 @@ const Gallery: React.FC = () => {
   return (
     <div className="gallery-container">
       <Navbar />
+      <IconHovers />
 
       {/* <Hero /> */}
 
@@ -129,12 +146,13 @@ const Gallery: React.FC = () => {
                   openLightbox(item.id)
                 }
               >
-                <div
-                  className="gallery-img"
-                  style={{
-                    backgroundImage: `url(${item.src})`,
-                  }}
-                >
+                <div className="gallery-img">
+                  <img
+                    src={item.src}
+                    alt={item.title}
+                    onError={handleGalleryImageError}
+                  />
+
                   <div className="gallery-overlay">
                     <div className="info">
                       <div className="badge">
@@ -193,6 +211,7 @@ const Gallery: React.FC = () => {
               <img
                 src={currentLightboxItem.src}
                 alt={currentLightboxItem.title}
+                onError={handleGalleryImageError}
               />
 
               <div className="lightbox-text">

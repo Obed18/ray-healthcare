@@ -91,7 +91,7 @@
 
 .courier-actions {
   display: flex;
-  gap: 12px;
+  gap: 1px;
 }
 .track-btn {
   padding: 10px 18px;
@@ -413,4 +413,12 @@
 .link-text {
   position: relative;
   z-index: 1;
+}
+.top-links{
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
 }

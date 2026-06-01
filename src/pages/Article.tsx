@@ -4,6 +4,8 @@ import "../styles/global.css";
 import ArticleSection from "../components/ArticleSection";
 import { Blog } from "../components/ArticleSection";
 import blogPosts from "../data/blogData";
+import IconHovers from "../components/IconHovers";
+
 
 const Article: React.FC = () => {
   const { id } = useParams<{ id?: string }>();
@@ -21,6 +23,7 @@ const Article: React.FC = () => {
           Article not found.
         </p>
       )}
+      <IconHovers />
     </div>
   );
 };
