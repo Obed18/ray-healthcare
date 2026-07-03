@@ -23,15 +23,15 @@ export const teamMembers = [
     bio: "Software Engineer and Tech Lead passionate about building scalable solutions and driving innovation across Africa’s tech ecosystem.",
     image: 0,
   },
-  {
-    name: "Dr Agyei-Poku Akua Agyeiwaa (OD)",
-    role: "Chief Financial Officer",
-    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
-    image: 27,
-  },
+  // {
+  //   name: "Dr Agyei-Poku Akua Agyeiwaa (OD)",
+  //   role: "Chief Financial Officer",
+  //   bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
+  //   image: 27,
+  // },
   {
     name: "Dr Julian Sakyibea Yeboah (OD)",
-    role: "Deputy Financial Officer",
+    role: "Chief Financial Officer",
     bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
     image: 5,
   },

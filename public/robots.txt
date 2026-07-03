@@ -1,0 +1,9 @@
+# Allow all search engines to crawl the website
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://rayhealthcareafrica.org/sitemap.xml
+
+# Optional: Slow down aggressive bots (ignored by Google)
+Crawl-delay: 2
