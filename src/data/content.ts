@@ -172,12 +172,12 @@ export const boardMembers = [
     bio: "Watborg Eye Services",
     image: 26
   },
-  // {
-  //   name: "Ayerkie Christabel Nuertey",
-  //   role: "General secretary",
-  //   bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
-  //   image: 20
-  // },
+  {
+    name: "Dr. Sylvester Kyeremeh",
+    role: "Lecturer (Department of Optometry and Visual Science, KNUST)",
+    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
+    image: 28
+  },
 ];
 
 
