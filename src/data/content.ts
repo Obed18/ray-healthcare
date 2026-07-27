@@ -174,8 +174,8 @@ export const boardMembers = [
   },
   {
     name: "Dr. Sylvester Kyeremeh",
-    role: "Lecturer (Department of Optometry and Visual Science, KNUST)",
-    bio: "Web development lead specializing in building responsive, high-performance applications and leading teams to deliver scalable digital solutions.",
+    role: "Lecturer",
+    bio: "Department of Optometry and Visual Science, KNUST",
     image: 28
   },
 ];
